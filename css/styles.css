@@ -123,7 +123,10 @@ ul {
 /* title section */
 
 .title_section {
-  background-color: var(--NAVY-BLUE);
+  background-color: rgba(96, 96, 100, 0.832);
+  background-image: url(../images/background-image.jpg);
+  background-size: cover;
+  background-blend-mode: multiply;
   color: var(--WHITE);
   font-size: 56px;
   font-weight: 700;
@@ -171,6 +174,7 @@ ul {
 .book_service_button:focus {
   background-color: var(--OCEAN);
 }
+/* visual hiden */
 
 .visually-hidden {
   position: absolute;
@@ -279,14 +283,15 @@ ul {
 
 .image-bacground {
   width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;}
+  border-radius: 0px 0px 4px 4px;
+}
 
 .name-and-post {
   padding-top: 32px;
   padding-bottom: 32px;
   padding: 32px 0;
-    text-align: center;
-    background-color: #FFFFFF;
+  text-align: center;
+  background-color: #ffffff;
 }
 
 .paragraf_item {
@@ -394,7 +399,7 @@ footer {
 
 .images {
   display: block;
-  
-    max-width: 100%;
-    height: auto;
+
+  max-width: 100%;
+  height: auto;
 }
