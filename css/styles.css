@@ -304,9 +304,9 @@ ul {
   margin-bottom: 8px;
 }
 
-.li.image-bacground {
+.image-bacground {
   width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
+  border-radius: 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -361,7 +361,7 @@ ul {
 }
 .costumer-title {
   font-size: 36px;
-  line-height: 1.11px;
+  line-height: 111.111%;
   color: #2e2f42;
   margin-bottom: 72px;
   font-family: Roboto;
@@ -441,7 +441,6 @@ ul {
 
 /* footer section */
 
-
 .footer-div {
   display: flex;
   align-items: baseline;
@@ -479,19 +478,15 @@ footer {
   color: #ffffffff;
   margin-bottom: 16px;
   padding-left: 540px;
-  
 }
-.social-links-footer{
+.social-links-footer {
   display: flex;
   gap: 16px;
   margin-top: 16px;
-  
- 
 }
-.for-all-list-footer{
+.for-all-list-footer {
   width: 40px;
   height: 40px;
-
 }
 .div-social-media {
   display: flex;
