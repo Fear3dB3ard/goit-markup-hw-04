@@ -301,7 +301,6 @@ ul {
 .our-team-list {
   display: flex;
   gap: 24px;
-
 }
 
 .our_team_subtitle {
@@ -390,7 +389,7 @@ ul {
   height: 88px;
 }
 .elements-list {
-  width: calc((100% - 120px) / 6);
+  width:calc((100%-120px)/6);
 }
 .elements-link {
   width: 100%;
