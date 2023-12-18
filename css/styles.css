@@ -306,7 +306,7 @@ ul {
 
 .image-bacground {
   width: calc((100% - 72px) / 4);
-  border-radius:4px;
+  border-radius: 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -444,7 +444,6 @@ ul {
 .footer-div {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
 }
 footer {
   background-color: var(--NAVY-BLUE);
@@ -465,12 +464,10 @@ footer {
 .footer_text {
   color: var(--CLOUD);
   max-width: 264px;
-  padding-top: -1000px;
 }
-
-
- 
-
+.div-logo-footer {
+  margin-right: 120px;
+}
 .social-media-footer {
   font-weight: 500;
   font-size: 16px;
