@@ -110,11 +110,14 @@ ul {
 .link {
   text-decoration: none;
   color: var(--NAVY-BLUE);
+  display: block;
 }
 
 .link:hover,
 .link:focus {
   color: var(--OCEAN);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .container {
   width: 1158px;
@@ -306,9 +309,9 @@ ul {
 
 .image-bacground {
   width: calc((100% - 72px) / 4);
-  border-radius: 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 4px;
 }
 
 .social-links {
@@ -468,9 +471,10 @@ footer {
   justify-content: center;
 }
 .link-web-footer:hover,
-.link-web-footer:focus{
+.link-web-footer:focus {
   background-color: #31d0aa;
-} .studio_item_foother {
+}
+.studio_item_foother {
   color: var(--CLOUD);
 }
 
@@ -479,12 +483,12 @@ footer {
   max-width: 264px;
 }
 .div-logo-footer {
-  gap: 120px;
+  margin-right: 120px;
 }
 .social-media-footer {
+  line-height: 1.5;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5px;
   letter-spacing: 0.02em;
   color: #ffffffff;
   margin-bottom: 16px;
