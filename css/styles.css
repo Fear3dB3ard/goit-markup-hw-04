@@ -284,6 +284,7 @@ ul {
 .our_team_section {
   background-color: var(--CLOUD);
   padding: 120px 0;
+  border-radius: 4px;
 }
 
 .team_title {
@@ -301,6 +302,7 @@ ul {
 .our-team-list {
   display: flex;
   gap: 24px;
+  border-radius: 4px;
 }
 
 .our_team_subtitle {
@@ -311,7 +313,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   background-color: var(--WHITE), #ffffffff;
-
+  border-radius: 4px;
   text-align: center;
   margin-bottom: 8px;
 }
@@ -322,7 +324,6 @@ ul {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 4px;
 }
-
 .social-links {
   display: flex;
   justify-content: center;
