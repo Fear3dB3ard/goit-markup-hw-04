@@ -444,6 +444,7 @@ ul {
 .footer-div {
   display: flex;
   align-items: baseline;
+  padding-left: 56px;
 }
 footer {
   background-color: var(--NAVY-BLUE);
@@ -466,7 +467,7 @@ footer {
   max-width: 264px;
 }
 .div-logo-footer {
-  margin-right: 120px;
+  gap: 120px;
 }
 .social-media-footer {
   font-weight: 500;
@@ -475,7 +476,7 @@ footer {
   letter-spacing: 0.02em;
   color: #ffffffff;
   margin-bottom: 16px;
-  padding-left: 540px;
+  
 }
 .social-links-footer {
   display: flex;
