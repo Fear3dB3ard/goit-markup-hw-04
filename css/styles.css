@@ -387,9 +387,10 @@ ul {
   display: flex;
   gap: 24px;
   height: 88px;
+  padding: 0;
 }
 .elements-list {
-  width:calc((100%-120px)/6);
+  width: calc((100% - 120px) / 6);
 }
 .elements-link {
   width: 100%;
