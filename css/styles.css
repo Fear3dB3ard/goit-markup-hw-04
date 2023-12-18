@@ -280,7 +280,7 @@ ul {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.11;
+  line-height: 1.11px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
@@ -304,7 +304,7 @@ ul {
   margin-bottom: 8px;
 }
 
-.image-bacground {
+.li.image-bacground {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -319,6 +319,7 @@ ul {
   align-items: center;
   padding: 0;
 }
+
 .for-all-list {
   width: 40px;
   height: 40px;
@@ -418,7 +419,8 @@ ul {
   background-color: #404bbf;
   color: #ffffff;
   border: 1px solid transparent;
-  box-shadow:  0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .subtitle_portfolio_img {
@@ -439,6 +441,11 @@ ul {
 
 /* footer section */
 
+
+.footer-div {
+  display: flex;
+  align-items: baseline;
+}
 footer {
   background-color: var(--NAVY-BLUE);
   padding: 100px 0;
@@ -459,34 +466,36 @@ footer {
   color: var(--CLOUD);
   max-width: 264px;
 }
-.footer-div{
-  display: flex;
-  align-items: baseline;
 
-
+.logo-div {
+  margin-right: 120px;
 }
-.logo-div{
- 
- margin-right: 120px;
-}
-.social-media-footer{
+.social-media-footer {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5px;
   letter-spacing: 0.02em;
-  color:  #FFFFFFFF;
-  margin-bottom: 16px ;
+  color: #ffffffff;
+  margin-bottom: 16px;
   padding-left: 540px;
   
 }
-.div-social-media{
-display: flex;
-
-
-
+.social-links-footer{
+  display: flex;
+  
+  gap: 16px;
+  margin-top: 16px;
+  
+ 
+}
+.for-all-list-footer{
+  width: 40px;
+  height: 40px;
 
 }
-
+.div-social-media {
+  display: flex;
+}
 
 /* portfolio */
 
@@ -520,9 +529,9 @@ display: flex;
   display: block;
 }
 .img-portfolio:hover,
-.img-portfolio:focus{  box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-
-
+.img-portfolio:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .div-portfolio {
